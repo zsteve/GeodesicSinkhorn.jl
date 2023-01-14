@@ -1,0 +1,2 @@
+# GeodesicSinkhorn.jl
+Geodesic Sinkhorn
