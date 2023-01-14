@@ -1,0 +1,8 @@
+using OptimalTransport
+using NPZ
+
+X = npzread("X.npy")
+using MultivariateStats
+pca_op = fit(PCA, X')
+X_pca = predict(pca_op, X')'
+
